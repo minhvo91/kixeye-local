@@ -14,7 +14,7 @@ The requirement of application is: https://github.com/Kixeye/testapp/blob/master
 [Mac-Pro:~ minhvo$ git clone https://github.com/minhvo91/kixeye-local.git
 ```
 
-2. **Create log file and set owner to it**
+2. **Create log file and set the owner to it**
 ```
 Mac-Pro:~ minhvo$ sudo touch /var/log/testapp.log
 Mac-Pro:~ minhvo$ sudo chown minhvo: /var/log/testapp.log
@@ -31,8 +31,6 @@ Mac-Pro:~ minhvo$ sudo chown minhvo: /var/log/testapp.log
 Mac-Pro:kixeye-local minhvo$  curl http://localhost:8080/leaderboard
 [{"userId":3,"score":-602093007},{"userId":4,"score":-355135759}]
 ```
-
-OR You can check by URL: http://remote-server-ip:8080/leaderboard
 
 4. **Checking the log**
 ```
