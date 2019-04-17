@@ -11,7 +11,7 @@ The requirement of application is: https://github.com/Kixeye/testapp/blob/master
 
 1. **Clone this repo to your machine**
 ```
-[Mac-Pro:~ minhvo$ git clone https://github.com/minhvo91/kixeye-local.git
+Mac-Pro:~ minhvo$ git clone https://github.com/minhvo91/kixeye-local.git
 ```
 
 2. **Create log file and set the owner to it**
@@ -21,8 +21,8 @@ Mac-Pro:~ minhvo$ sudo chown minhvo: /var/log/testapp.log
 ```
 3. **Run docker-compose to deploy testapp application**
 ```
-[Mac-Pro:~ minhvo$ cd kixeye-local
-[Mac-Pro:kixeye-local minhvo$  nohup docker-compose up >> /var/log/testapp.log & 
+Mac-Pro:~ minhvo$ cd kixeye-local
+Mac-Pro:kixeye-local minhvo$  nohup docker-compose up >> /var/log/testapp.log & 
 [1] 1771
 ```
 
