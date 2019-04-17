@@ -1,0 +1,11 @@
+FROM minhvo/centos7-jre:1.8.121
+
+MAINTAINER  Minh VO
+
+WORKDIR /var/opt/testapp
+
+COPY . .
+
+EXPOSE 8080
+
+CMD java -cp ./testapp.jar kixeye.testapp.Main
