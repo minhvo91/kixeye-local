@@ -3,7 +3,6 @@
 
 This is the Docker-compose file will be used for:
 - Deploying KIXEYE Test Application on local MacOS machine
-- Write the log to local file: /var/log/testapp.log
 
 The requirement of application is: https://github.com/Kixeye/testapp/blob/master/README.md
 
