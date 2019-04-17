@@ -26,13 +26,13 @@ Mac-Pro:kixeye-local minhvo$  nohup docker-compose up >> /var/log/testapp.log &
 [1] 1771
 ```
 
-3. **Check the app if it is up and running correctly**
+4. **Check the app if it is up and running correctly**
 ```
 Mac-Pro:kixeye-local minhvo$  curl http://localhost:8080/leaderboard
 [{"userId":3,"score":-602093007},{"userId":4,"score":-355135759}]
 ```
 
-4. **Checking the log**
+5. **Checking the log**
 ```
 Mac-Pro:kixeye-local minhvo$ tail -n100 /var/log/testapp.log 
 Starting testapp_redis.local_1 ... done
