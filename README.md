@@ -1,7 +1,6 @@
 # Deploying KIXEYE Test Application on MacOS using  Docker-compose
 
-
-This is the Docker-compose file will be used for:
+This project is using docker-compose to:
 - Deploying KIXEYE Test Application on local MacOS machine
 
 The requirement of application is: https://github.com/Kixeye/testapp/blob/master/README.md
